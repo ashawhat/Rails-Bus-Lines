@@ -1,0 +1,9 @@
+<%= content_for(:title, "Stop saved | Bus Stops") %>
+
+<h1>Stop saved!</h1>
+
+<p>Your stop was successfully saved.</p>
+
+<p><a href="/stops/<%= @stop.id %>">View <%= @stop.station_id.name %></a></p>
+
+<p><a href="/stops">Return to stop listing</a></p>

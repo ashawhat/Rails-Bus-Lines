@@ -8,6 +8,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'rspec'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 group :development do
   gem 'better_errors'

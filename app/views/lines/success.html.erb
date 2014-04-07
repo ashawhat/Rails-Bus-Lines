@@ -1,1 +1,10 @@
 
+<%= content_for(:title, "Line saved | Bus Lines") %>
+
+<h1>Line saved!</h1>
+
+<p>Your line was successfully saved.</p>
+
+<p><a href="/lines/<%= @line.id %>">View <%= @line.name %></a></p>
+
+<p><a href="/lines">Return to line listing</a></p>
