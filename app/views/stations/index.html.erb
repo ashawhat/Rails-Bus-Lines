@@ -1,0 +1,10 @@
+<%= content_for(:title, "Bus Stations | Bus Stations") %>
+
+<h1>Bus Stations</h1>
+
+<ul>
+  <% @stations.each do |station| %>
+    <li><a href="/stations/<%= station.id %>"><%= station.name %></a></li>
+  <% end %>
+</ul>
+<%= link_to "New station", new_station_path, :class=> "btn btn-default" %>
