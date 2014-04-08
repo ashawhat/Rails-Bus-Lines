@@ -1,6 +1,13 @@
-body{
+html{
+background-image:url('background.png');
 
-  <%= link_to image_tag('app/images/background.jpg') %>
+font-family: 'Londrina Outline', cursive;
+color: white;
+}
+
+h1{
+  font-size: 200px;
+
 }
 
 
